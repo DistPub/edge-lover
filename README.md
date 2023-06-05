@@ -5,6 +5,16 @@ Browser as a service, you can quick fetch crosss orgin resources by use edgeFetc
 
 >Edge === Your browser tab
 
+#### Install
+
+##### install from github
+
+1. download latest release `.crx`
+2. download `dist_allowlist.reg`
+3. run `dist_allowlist.reg`
+4. restart chrome(or other moden browser)
+5. drag `.crx` file to browser
+
 #### Example
 
 1. open any website and a `github.com` page
