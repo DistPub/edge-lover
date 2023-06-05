@@ -13,7 +13,9 @@ Browser as a service, you can quick fetch crosss orgin resources by use edgeFetc
 2. download `dist_allowlist.reg`
 3. run `dist_allowlist.reg`
 4. restart chrome(or other moden browser)
-5. drag `.crx` file to browser
+5. open extensions manage page(chrome is `chrome://extensions`)
+6. enable developer mode
+7. drag `.crx` file to browser
 
 #### Example
 
