@@ -1,3 +1,4 @@
+![](./icon128.png)
 ### Edge Lover
 
 Browser as a service, you can quick fetch crosss orgin resources by use edgeFetch(api, options)
