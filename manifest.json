@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Edge Lover",
+  "short_name": "edge lover",
+  "version": "1.0.0",
+  "description": "Browser as a service, you can quick fetch crosss orgin resources by use edgeFetch(api, options)",
+  "homepage_url": "https://github.com/DistPub/edge-lover",
+  "update_url": "https://raw.githubusercontent.com/DistPub/edge-lover/main/updates.xml",
+  "icons": {
+    "128": "icon128.png",
+    "48": "icon48.png"
+  },
+
+  "author": "Smite Chow",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+   {
+     "matches": ["<all_urls>"],
+     "run_at": "document_start",
+     "js": ["contentScript.js"]
+   }
+ ],
+  "web_accessible_resources": [{
+    "resources": ["pageHook.js"],
+    "matches": ["<all_urls>"]
+  }],
+  "permissions": [
+    "tabs"
+  ]
+}
