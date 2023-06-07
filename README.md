@@ -10,8 +10,8 @@ Browser as a service, you can quick fetch crosss orgin resources by use edgeFetc
 ##### install from github
 
 1. download latest release `.crx`
-2. download `dist_allowlist.reg`
-3. run `dist_allowlist.reg`
+2. download windows policy file `dist_allowlist.reg`(mac: `dist_allowlist.mobileconfig`)
+3. run policy file
 4. restart chrome(or other moden browser)
 5. open extensions manage page(chrome is `chrome://extensions`)
 6. enable developer mode
